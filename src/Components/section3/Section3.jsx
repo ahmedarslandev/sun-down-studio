@@ -18,29 +18,29 @@ function Section3() {
     }, [])
     return (
         <>
-            <div id='elem' className='elem overflow-x-auto  w-full h-[40vh] relative  flex flex-row flex-nowrap items-center'>
-                <div id="mover"  className='flex'>
+            <div id='elem Work' className='elem overflow-x-auto  w-full h-[40vh] relative  flex flex-row flex-nowrap items-center'>
+                <div id="mover" className='flex'>
 
-                <MovingTeaxt text='Experience' left='left-0' />
-                <MovingTeaxt text='Contect' left='left-[58vw]' />
-                <MovingTeaxt text='Enviroment' left='left-[120vw]' />
-                <MovingTeaxt text='Experience' left='left-0' />
+                    <MovingTeaxt text='Experience' left='left-0' />
+                    <MovingTeaxt text='Contect' left='left-[58vw]' />
+                    <MovingTeaxt text='Enviroment' left='left-[120vw]' />
+                    <MovingTeaxt text='Experience' left='left-0' />
                 </div>
                 <div id="mover" className=' flex'>
 
-                <MovingTeaxt text='Experience' left='left-0' />
-                <MovingTeaxt text='Contect' left='left-[58vw]' />
-                <MovingTeaxt text='Enviroment' left='left-[120vw]' />
-                <MovingTeaxt text='Experience' left='left-0' />
+                    <MovingTeaxt text='Experience' left='left-0' />
+                    <MovingTeaxt text='Contect' left='left-[58vw]' />
+                    <MovingTeaxt text='Enviroment' left='left-[120vw]' />
+                    <MovingTeaxt text='Experience' left='left-0' />
                 </div>
                 <div id="mover" className=' flex'>
 
-                <MovingTeaxt text='Experience' left='left-0' />
-                <MovingTeaxt text='Contect' left='left-[58vw]' />
-                <MovingTeaxt text='Enviroment' left='left-[120vw]' />
-                <MovingTeaxt text='Experience' left='left-0' />
+                    <MovingTeaxt text='Experience' left='left-0' />
+                    <MovingTeaxt text='Contect' left='left-[58vw]' />
+                    <MovingTeaxt text='Enviroment' left='left-[120vw]' />
+                    <MovingTeaxt text='Experience' left='left-0' />
                 </div>
-                
+
             </div>
 
         </>

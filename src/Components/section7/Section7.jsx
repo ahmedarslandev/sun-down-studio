@@ -19,7 +19,7 @@ function Section7() {
   },);
   return (
     <>
-      <div className=' relative'>
+      <div id='Contact' className=' relative'>
         <div className=' parent z-20 select-none cursor-none relative overflow-hidden flex flex-col items-center justify-start w-full lg:h-[80vh] gap-7 px-5 py-10'>
           <div id='mouseFollower' className=' cursor-none  absolute z-50 top-0 left-0 w-[7vw] h-[7vw]  items-center justify-center rounded-full bg-[rgb(254,51,10)]'>
             <div className=' flex w-fit h-fit'>

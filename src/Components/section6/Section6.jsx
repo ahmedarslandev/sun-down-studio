@@ -6,22 +6,22 @@ function Section6() {
 
     useEffect(() => {
 
-        gsap.to('.scrub-img',{
-            top:'15vh',
-            ease:'none',
-            scrollTrigger:{
-                trigger:'.scrub-img',
-                start:'top 50%',
-                end:'top -30%',
-                scrub:2,
+        gsap.to('.scrub-img', {
+            top: '15vh',
+            ease: 'none',
+            scrollTrigger: {
+                trigger: '.scrub-img',
+                start: 'top 50%',
+                end: 'top -30%',
+                scrub: 2,
             }
 
         })
-      
+
     }, []);
     return (
         <>
-            <div className=' w-full h-fit flex items-center justify-center p-10'>
+            <div id='Studio' className=' w-full h-fit flex items-center justify-center p-10'>
                 <div className=' w-full h-[110vh] rounded-xl items-center justify-between bg-black flex'>
                     <div id="left" className=' w-[40%] h-[80%]  flex justify-center flex-col gap-5 items-center'>
                         <div className=' w-full h-fit flex items-center justify-center'>
