@@ -2,143 +2,144 @@
 @tailwind components;
 @tailwind utilities;
 
+body,
+html {
+  width: 100%;
+  background-color: #efeae3;
+}
 
-
-body,html{
-    width: 100%;
-    background-color: #EFEAE3;
+.ads {
+  width: 100vw;
+  height: 100vh;
 }
-#footer{
-    width: 100%;
-    height: 100vh;
-    background-color: yellow;
-    position:absolute;
-    z-index: -30;
+#footer {
+  width: 100%;
+  height: 100vh;
+  background-color: yellow;
+  position: absolute;
+  z-index: -30;
 }
-.buttons::before{
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    border-radius: 100%;
-    transition: all ease .3s;
+.buttons::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  border-radius: 100%;
+  transition: all ease 0.3s;
 }
-.buttons:hover li{
-    color: white;
+.buttons:hover li {
+  color: white;
 }
-.buttons:hover::before{
-    top: 0;
-    border-radius: 0;
+.buttons:hover::before {
+  top: 0;
+  border-radius: 0;
 }
-.word-spacing-1{
-    word-spacing: -1px;
-    letter-spacing: -2px;
-    line-height: 1.5rem;
+.word-spacing-1 {
+  word-spacing: -1px;
+  letter-spacing: -2px;
+  line-height: 1.5rem;
 }
-.word-spacing-3{
-    word-spacing: -1px;
+.word-spacing-3 {
+  word-spacing: -1px;
 }
-.word-spacing-2{
-    word-spacing: -5px;
+.word-spacing-2 {
+  word-spacing: -5px;
 }
-#mover{
-    animation: marquee 15s linear infinite;
+#mover {
+  animation: marquee 15s linear infinite;
 }
-#elem::-webkit-scrollbar,#scroll-off::-webkit-scrollbar{
-    display: none;
-
+#elem::-webkit-scrollbar,
+#scroll-off::-webkit-scrollbar {
+  display: none;
 }
 
 @keyframes marquee {
-    from{
-        transform: translateX(0) ;
-    }
-    to{
-        transform: translateX(-100%);
-    }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
-.motionDiv1{
-    transform: rotate(-3deg);
-    
+.motionDiv1 {
+  transform: rotate(-3deg);
 }
-.motionDiv2{
-    width: 30vw;
-    height: 30vw;
-    border-radius: 50%;
-    animation: motionDiv 10s linear  alternate infinite;
+.motionDiv2 {
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50%;
+  animation: motionDiv 10s linear alternate infinite;
 }
-.motionDiv3{
-    width: 20vw;
-    height: 20vw;
-    border-radius: 50%;
-    animation: motionDiv 5s linear  alternate infinite;
-
+.motionDiv3 {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  animation: motionDiv 5s linear alternate infinite;
 }
 @keyframes motionDiv {
-
-    0%{
-        transform: translate(-10vw,5vw);
-    }
-    20%{
-        transform: translate(-10%,-10%);
-    }
-    50%{
-        transform: translate(10vw,-3vw);
-    }
-    75%{
-        transform: translate(0vw,6vw) ;
-    }
-    100%{
-        transform: translate(-10vw,5vw);
-    }
+  0% {
+    transform: translate(-10vw, 5vw);
+  }
+  20% {
+    transform: translate(-10%, -10%);
+  }
+  50% {
+    transform: translate(10vw, -3vw);
+  }
+  75% {
+    transform: translate(0vw, 6vw);
+  }
+  100% {
+    transform: translate(-10vw, 5vw);
+  }
 }
 
-.hover1::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 0;
-    background: linear-gradient( to bottom ,rgb(238, 127, 15), rgb(250, 148, 39));
-    transition: all ease .4s ;
-    z-index: -1;
+.hover1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background: linear-gradient(to bottom, rgb(238, 127, 15), rgb(250, 148, 39));
+  transition: all ease 0.4s;
+  z-index: -1;
 }
-.hover1:hover::before{
-    height: 100%;
+.hover1:hover::before {
+  height: 100%;
 }
-#mouseFollower{
-    display: none;
-    scale: 0;
+#mouseFollower {
+  display: none;
+  scale: 0;
 }
 
-#footerMotionDiv1{
-    filter: blur(50px);
-    transform: rotate(-20deg);
-    animation: div1 3s linear infinite  alternate;
+#footerMotionDiv1 {
+  filter: blur(50px);
+  transform: rotate(-20deg);
+  animation: div1 3s linear infinite alternate;
 }
-#footerMotionDiv2{
-    filter: blur(50px);
-    transform: rotate(20deg);
-    animation: div2  5s  linear infinite  alternate;
+#footerMotionDiv2 {
+  filter: blur(50px);
+  transform: rotate(20deg);
+  animation: div2 5s linear infinite alternate;
 }
 
 @keyframes div1 {
-    from{
-        transform: rotate(0deg) ;
-    }
-    to{
-        transform: rotate(-20deg) ;
-    }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-20deg);
+  }
 }
 @keyframes div2 {
-    from{
-        transform: rotate(10deg) ;
-    }
-    to{
-        transform: rotate(40deg) ;
-    }
+  from {
+    transform: rotate(10deg);
+  }
+  to {
+    transform: rotate(40deg);
+  }
 }
