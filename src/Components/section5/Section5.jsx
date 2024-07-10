@@ -8,9 +8,9 @@ function Section5() {
       e.addEventListener('mousemove', () => {
         const div = e.querySelector('.imgDiv')
         div.style.display = 'block'
-        div.style.transform='translate(50%,-50%)'
-        div.style.top='50%'
-        div.style.left='50%'
+        div.style.transform = 'translate(50%,-50%)'
+        div.style.top = '50%'
+        div.style.left = '50%'
       })
       e.addEventListener('mouseleave', () => {
         const div = e.querySelector('.imgDiv')
@@ -60,10 +60,10 @@ function Section5() {
               src="https://player.vimeo.com/progressive_redirect/playback/836176806/rendition/1080p/file.mp4?loc=external&amp;signature=8d5d79d41d6792a94d0354d28a4fb548f948a98a439a3830f1d4c97574df26e5" />
           } />
 
-          
-        <div  className=' p-5'>
-          <Button title={'All Projects →' }/>
-        </div>
+
+          <div className=' p-5'>
+            <Button title={'All Projects →'} />
+          </div>
         </div>
       </div>
     </>
